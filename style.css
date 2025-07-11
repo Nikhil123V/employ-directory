@@ -83,6 +83,18 @@ body {
   animation: gradientShift 15s ease infinite;
   min-height: 100vh;
 }
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between image and text */
+}
+
+.logo {
+  width: 160px;  /* Adjust size as needed */
+  height: auto;
+    object-fit: contain;
+
+}
 
 @keyframes gradientShift {
   0% {
